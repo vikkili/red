@@ -1087,7 +1087,9 @@ footer .social a {
     background: #000;
     margin: 0 0 0 -25px;
 }
-
+.img-centered {
+    margin: 0 auto;
+}
 /* Slider Revolution */
 .slider {
     width: 100%;
