@@ -858,6 +858,9 @@ blockquote cite {
 .mt{
     margin-top: 20px;
 }
+.bt{
+    margin-bottom: 40px;
+}
 /* Portfolio */
 .portfolio-items {
     margin: 0 auto;
