@@ -720,7 +720,12 @@ ul.socialmedia li a:hover{
     margin-left: auto;
     margin-right: auto
 }
-#persona, #sketches p{
+#persona p{
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
+#sketches p{
     padding-bottom: 0;
     margin-bottom: 10px;
 
