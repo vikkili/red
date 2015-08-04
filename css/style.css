@@ -770,7 +770,7 @@ ul.socialmedia li a:hover{
 }
 .introText{
     margin-top: 50%;
-    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
 }
 
 /* FOOTER
