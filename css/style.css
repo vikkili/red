@@ -556,11 +556,13 @@ ul.socialmedia li a{
     display: inline-block;
     width: 30px;
     height: 30px;
-    opacity: .5;
+    color: #000;
+    opacity: .3;
 }
 
 ul.socialmedia li a:hover{
-    opacity: .8;
+    color: #fd5c63;
+    opacity: 1;
 }
 
 /* Content
@@ -792,7 +794,6 @@ ul.socialmedia li a:hover{
     font-size: .6em;
     letter-spacing: 1px;
     padding: 100px 0 40px 0;
-    color: rgb(200,200,200);
     text-transform: uppercase;
 }
 #footer p{
