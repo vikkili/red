@@ -169,6 +169,7 @@ nav.detached {
     position: relative;
     width: 100%;
     background: #fff;
+    opacity: 0.95;
     z-index: 16;
 }
 .navbar-default {
@@ -278,7 +279,7 @@ a.logo:hover {
 /* HEADERIMG
    ================================================== */
 #headerimg {
-    background-color: #f5f4f3;
+    background-color: #f6f6f6;
 }
 .img-me{
     height: 150px;
@@ -424,7 +425,7 @@ article{
     display: table;
     width: 100%;
     margin: 0 auto;
-    background-color: #f5f4f3;
+    background-color: #f6f6f6;
     -webkit-backface-visibility: hidden;
     -webkit-transform: translate3D(0, 0, 0);
 }
@@ -572,7 +573,7 @@ ul.socialmedia li a:hover{
 }
 .wrapper {
   z-index: 2;
-  
+  background: transparent;
   position: relative;
 }
 
@@ -608,7 +609,7 @@ ul.socialmedia li a:hover{
 }
 
 .proShowcase_grey{
-    background-color: #f5f4f3;
+    background-color: #f6f6f6;
 }
 .proSectionPadding{
     padding: 70px 20px 0 0;
