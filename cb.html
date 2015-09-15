@@ -130,7 +130,7 @@
                         <ul>
                             <li>For software industry - Market is changing fast, and competition is fierce. For hardware industry - more demanding on time and money, investors doubt of the industry.</li>
                             <li>Hard to get users at first due to lack of money for promotion</li>
-                            <li>Technology people having difficulties selling the product to investor. Finding a good business partner is hard.</li>
+                            <li>Technology people having difficulties selling the product to investors. Finding a good business partner is hard.</li>
                         </ul>
                         <p style="text-align:left; padding-bottom:10px; padding-top:20px"><img src="images/cb4.png" style="width:30px; margin-right:10px"></img><strong>How to be fully prepared to get funding?</strong></p>
                         <ul>
@@ -156,15 +156,21 @@
                     <h3>Sketches</h3>
                     <h2>Playing With Data</h2> 
                     <div class="row">
-                        <div class="col-md-6 col-xs-6">
+                        <div class="col-md-8 col-xs-12">
                             <p style="padding-bottom:10px">The data we get from CrunchBase includes the following dimensions that can answer our questions</p>
                             <ul>
                                 <li>Industry level: market/industry, calculated market volume, calculated market value</li>
-                                <li>Company level: company name, company value (total funding), company funding rounds, company found year</li>
+                                <li>Company level: company name, company value (total funding), company funding rounds, company found year, city</li>
                             </ul>
-                            <p style="padding-bottom:10px">We generated sketches of possible views to visualize industry trends as well as company comparison. We decided to choose tree map as the first view to display industry value, which could be expanded into the second level showing representative companies in this industry and their repective values. Then we use a bar-line graph to show yearly trend of market value and market volume. For company funding comparison, we chose stacked or grouped bar graph to compare each rounds.</p>
+                            <p style="padding-bottom:10px">We generated sketches of possible views to visualize industry trends as well as company comparison. Then we decided on the following views, and I produced a hi-fi prototype in Tableau.</p>
+                            <ul>
+                                <li>Tree Map: Multi-dimensional & Hierarchy. Use color to indicate market volume and size to indicate market value. Can be expanded to second level company view.</li>
+                                <li>Bar & Line Graph Combination: To show trend and comparison at the same time. Use line graph to show market value trend over the years and bar graph to show comparison of market volume each year.</li>
+                                <li>Map: Show geography distribution of companies. Use size to represent number of companies.</li>
+                                <li>Stacked/Grouped Bar Graph: Two ways to compare company fundings. Use stacked view to compare overall performance between companies and grouped view to compare each round.</li>
+                            </ul>
                         </div>
-                        <div class="col-md-6 col-xs-6">
+                        <div class="col-md-4 col-xs-12">
                             <img style="width:100%" src="images/cb6.jpg"></img>
                         </div>
                     </div>
@@ -173,8 +179,24 @@
 
             <section class="proShowcase proShowcase_grey" id="solution">
                 <div class="proSectionPadding"  style="padding-bottom:50px">
+                    <h3>Prototype</h3>
+                    <h2>Interactive Visualization by Tableau</h2>
+                    <div class="fotorama" data-width="100%"  data-max-width="100%" > <!--700/500-->
+                        <img src="images/cb7.jpg">
+                        <img src="images/cb8.jpg">
+                    </div>
+                    <p style="padding-bottom:10px; padding-top: 20px">Tableau is a very powerful tool for data analysis and exploration. However, in the following aspects, it is not as flexible as D3. So we decided to build the tool using D3.</p>
+                    <ul>
+                        <li>Tree map is not expandable in Tableau. It can only create a nested view, where category and sub-category are shown in the same view.</li>
+                        <li>Tableau requires the data to be clean, while D3.js can naturally clean the data and handle complex computation.</li>
+                        <li>D3 provides more flexibility on element format and layout.</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="proShowcase proShowcase_white" id="solution">
+                <div class="proSectionPadding"  style="padding-bottom:50px">
                     <h3>Build</h3>
-                    <h2>Crunchbase Viz</h2>
+                    <h2>CrunchBase Viz by D3.JS</h2>
                     
                 </div>
             </section>
