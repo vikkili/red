@@ -593,13 +593,25 @@ ul.socialmedia li a:hover{
 .proContainer .SCsubtitle{
     font-family: 'Lato', sans-serif;
     font-size: 1em;
-    color: rgb(150,150,150);
     text-align:center;
-    width: 50%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     text-transform: capitalize;
-    margin-bottom: 54px;
+    margin-bottom: 50px;
+}
+
+.proContainer .Team{
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    color: rgb(150,150,150);
+    text-align:center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    margin-top: 100px;
 }
 
 .proShowcase{
@@ -659,6 +671,30 @@ ul.socialmedia li a:hover{
     text-transform: none;
     padding-bottom: 40px;
 }
+.proContainer .SCtitle{
+    font-family: "Brandon_med", sans-serif;
+    font-size: 2.5em;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: rgb(50,50,50);
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.proContainer .SCsubtitle{
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    text-align:center;
+    color: rgb(150,150,150);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+
 .proContainer a{
     color: #fd5c63;
 }
@@ -673,6 +709,7 @@ ul.socialmedia li a:hover{
     text-transform: none;
 
 }
+
 .proContainer span{
     font-family: 'Open Sans', sans-serif;
     width: 100%;
@@ -797,12 +834,13 @@ ul.socialmedia li a:hover{
     padding: 100px 0 40px 0;
     text-transform: uppercase;
 }
+
+
 #footer p{
     width: 100%;
     text-align: center;
     font-size: .6em;
     letter-spacing: 1px;
-    padding: 100px 0 40px 0;
-    color: rgb(200,200,200);
+    padding: 0px 0 40px 0;
     text-transform: uppercase;
 }
