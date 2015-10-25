@@ -88,32 +88,7 @@ h2,
     line-height: 40px;
 }
 
-.btn {
-    padding: 7px 15px;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border-radius: 18px;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-.btn-default {
-    color: #2F2F33;
-    background-color: #fff;
-    border-color: #eee;
-}
-.btn-white {
-    background: #fff;
-    color: #000;
-}
-.btn-white:hover {
-    background: #1D1E1F;
-    color: #fff;
-}
-.btn-dark {
-    background: #212127;
-    color: #fff;
-}
+
 .divide20 {
     height: 20px;
     display: block;
@@ -214,13 +189,13 @@ nav.detached {
 }
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus{
-    color: #fd5c63;
+    color: #ff513a;
 }
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     /*color: #1c2334;*/
-    color:#fd5c63;
+    color:#ff513a;
     background-color: #FFFFFF;
 }
 .navbar-default .righ-side {
@@ -250,27 +225,7 @@ nav.detached {
         padding: 15px 20px;
     }
 }
-a.logo {
-    position: absolute;
-    top: 9px;
-    left: 50%;
-    width: 70px;
-    height: 70px;
-    line-height: 65px;
-    text-align: center;
-    margin-left: -35px;
-    background-color: #FFF;
-    color: #1c2334;
-    font-size: 45px;
-    border: 4px solid #1c2334;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-a.logo:hover {
-    background: #1c2334;
-    color: #fff;
-    text-decoration: line-through;
-}
+
 .navbar-header {
     position: relative;
     padding: 18px 0;
@@ -282,10 +237,10 @@ a.logo:hover {
     background-color: #f6f6f6;
 }
 .img-me{
-    height: 150px;
-    width:150px;
+    height: 160px;
+    width:160px;
     border-radius: 50%;
-    border: 5px solid white;
+   /* border: 5px solid #f2f2f2;*/
     margin-top: 40px;
 }
 .lead{
@@ -295,7 +250,7 @@ a.logo:hover {
    ================================================== */
 .workspace {
     padding-bottom: 90px;
-    padding-top: 120px;
+    padding-top: 70px;
 }
 
 #works {
@@ -561,7 +516,7 @@ ul.socialmedia li a{
 }
 
 ul.socialmedia li a:hover{
-    color: #fd5c63;
+    color: #ff513a;
     opacity: 1;
 }
 
@@ -696,7 +651,7 @@ ul.socialmedia li a:hover{
 
 
 .proContainer a{
-    color: #fd5c63;
+    color: #ff513a;
 }
 .proContainer li{
     font-family: 'Open Sans', sans-serif;
