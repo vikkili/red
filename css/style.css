@@ -62,8 +62,13 @@ body {
 
 a {
     text-decoration: none;
+    color:#ff513a;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
+}
+a:hover{
+    color:#ff513a;
+
 }
 h1,
 h2,
@@ -73,7 +78,7 @@ h5,
 h6 {
     font-family:'Brandon_med', sans-serif;
     color: #26292a;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     margin-top: 20px;
     font-weight:50;
 }
@@ -111,11 +116,6 @@ ul{
 /* PAGE WRAPPER
    ================================================== */
 
-.wrapper {
-    z-index: 1000;
-    background: transparent;
-    position: relative;
-}
 /* NAVIGATION
    ================================================== */
 nav.invisible {
@@ -178,6 +178,10 @@ nav.detached {
     }
 }
 
+.proContainer {
+    width: 100%
+}
+
 .navbar-default .navbar-nav>li>a {
     display: block;
     text-transform: uppercase;
@@ -200,7 +204,7 @@ nav.detached {
 }
 .navbar-default .righ-side {
     float: right;
-    width: 30%;
+    /*width: 30%;*/
 }
 .navbar-default .left-side {
     width: 43%;
@@ -234,23 +238,21 @@ nav.detached {
 /* HEADERIMG
    ================================================== */
 #headerimg {
-    background-color: #f6f6f6;
+    width:100%
+    background-image:url('images/header.jpg'); 
 }
-.img-me{
-    height: 160px;
-    width:160px;
-    border-radius: 50%;
-   /* border: 5px solid #f2f2f2;*/
-    margin-top: 40px;
-}
+
 .lead{
     margin-bottom: -30px;
 }
 /* WORK
    ================================================== */
+.container{
+    width:100%;
+}
 .workspace {
     padding-bottom: 90px;
-    padding-top: 70px;
+    padding-top: 90px;
 }
 
 #works {
@@ -263,6 +265,7 @@ article{
 
 .isotope-item {
     position: relative;
+    /*padding:0;*/ /*remove this and use the next line if want padding between items*/
     margin-bottom: 30px;
 }
 .isotope-item figure {
@@ -304,7 +307,7 @@ article{
     position: absolute;
     width:100%;
     height:100%;
-    background: rgba(0,0,0,.8);
+    background: rgba(0,0,0,.75);
     /*background: rgba(244,244,244,0.8);*/
     top:0;
     left:0;
@@ -316,15 +319,14 @@ article{
     width:100%;
     height:100%;
     background: rgba(0,0,0,.8);
-    /*background: rgba(244,244,244,0.8);*/
     top:0;
     left:0;
     text-decoration:none;
 }
-.largeproDescrp{
-    height: 30%;
+.Descrp{
+    height: 25%;
     width: 100%;
-    margin-top: 35%;
+    margin-top: 25%;
     display: block;
     position: relative;
 }
@@ -335,7 +337,6 @@ article{
     letter-spacing: 5px;
     font-weight: 300;
     color: #ffffff;
-    /*color: rgb(50,50,50);*/
     display: block;
     text-align: center;
     text-transform: uppercase;
@@ -451,15 +452,6 @@ article{
     margin-right: 0;
 }
 
-.aboutMe li a.umich{
-    border-bottom: 1px solid rgba(250,82,0,.6);
-    text-decoration: none;
-    color:rgb(40,40,40);
-    transition: all .3s ease;
-    -webkit-transition: .3s ease;
-
-}
-
 .aboutMe li a.uw:hover{
     border-bottom: 1px solid rgba(250,82,0,1);
     text-decoration: none;
@@ -534,27 +526,7 @@ ul.socialmedia li a:hover{
   position: relative;
 }
 
-.proContainer .SCtitle{
-    font-family: "Brandon_med", sans-serif;
-    font-size: 2.5em;
-    font-weight: 400;
-    letter-spacing: 0.1em;
-    color: rgb(50,50,50);
-    text-align: center;
-    margin-top: 100px;
-    width: 100%;
-}
 
-.proContainer .SCsubtitle{
-    font-family: 'Lato', sans-serif;
-    font-size: 1em;
-    text-align:center;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    text-transform: capitalize;
-    margin-bottom: 50px;
-}
 
 .proContainer .Team{
     font-family: 'Lato', sans-serif;
@@ -573,17 +545,14 @@ ul.socialmedia li a:hover{
     width: 100%;
     height: auto;
 }
-.proShowcase_black{
-    background-color: #4F4F4F;
-}
 
 .proShowcase_grey{
     background-color: #f6f6f6;
+    width: 100%;
+    height: auto;
 }
 .proSectionPadding{
-    padding: 70px 20px 0 0;
-    width: 75%;
-    margin-left: 12.5%;
+    padding: 60px 15px 0px 15px;
 }
 .SCimg{
     width: 100%;
@@ -601,18 +570,19 @@ ul.socialmedia li a:hover{
     letter-spacing: .3em;
     color: rgb(150,150,150);
     line-height: .8em;
-    text-align: center;
+    text-align: left;
 }
 
 .proContainer h2{
     font-family: 'Brandon_med', sans-serif;
     font-size: 1.5em;
     color: rgb(50,50,50);
-    text-align: center;
+    text-align: left;
     text-transform: none;
     margin-top: -10px;
     padding-bottom: 10px;
     line-height: 3em;
+    margin-bottom: -10px;
 }
 
 .proContainer p{
@@ -624,7 +594,7 @@ ul.socialmedia li a:hover{
     font-size: 1em;
     color: rgb(50,50,50);
     text-transform: none;
-    padding-bottom: 40px;
+    /*padding-bottom: 40px;*/
 }
 .proContainer .SCtitle{
     font-family: "Brandon_med", sans-serif;
@@ -632,7 +602,7 @@ ul.socialmedia li a:hover{
     font-weight: 400;
     letter-spacing: 0.1em;
     color: rgb(50,50,50);
-    text-align: center;
+    text-align: left;
     margin-top: 100px;
     width: 100%;
 }
@@ -640,8 +610,8 @@ ul.socialmedia li a:hover{
 .proContainer .SCsubtitle{
     font-family: 'Lato', sans-serif;
     font-size: 1em;
-    text-align:center;
-    color: rgb(150,150,150);
+    text-align:left;
+    color: rgb(50,50,50);
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -715,10 +685,10 @@ ul.socialmedia li a:hover{
 }
 */
 #persona img{
-    width: 50%;
-    display: block;
+    width: 100%;
+    /*display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto*/
 }
 #persona p{
     padding-bottom: 0;
@@ -764,7 +734,6 @@ ul.socialmedia li a:hover{
 }
 .proSCintro{
     width: 100%;
-    padding-bottom: 80px;
 }
 .proSCintroContainer{
     display: table-row;
@@ -798,4 +767,8 @@ ul.socialmedia li a:hover{
     letter-spacing: 1px;
     padding: 0px 0 40px 0;
     text-transform: uppercase;
+}
+.row{
+    margin-right: 0;
+    margin-left: 0;
 }
