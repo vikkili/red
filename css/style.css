@@ -302,18 +302,18 @@ article{
     transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
 }
 
-.isotope-item:hover .layer {
+.isotope-item .layer {
     display: block;
     position: absolute;
     width:100%;
-    height:100%;
-    background: rgba(0,0,0,.75);
+    height:20%;
+    background: rgba(255,255,255,.95);
     /*background: rgba(244,244,244,0.8);*/
-    top:0;
+    top:80%;
     left:0;
     text-decoration:none;
 }
-.isotope-item .layer {
+/*.isotope-item .layer {
     display: none;
     position: absolute;
     width:100%;
@@ -322,26 +322,25 @@ article{
     top:0;
     left:0;
     text-decoration:none;
-}
+}*/
 .Descrp{
-    height: 25%;
+    height: 100%;
     width: 100%;
-    margin-top: 25%;
     display: block;
-    position: relative;
 }
 
 .hover_title{
     font-family: 'Brandon_med', sans-serif;
     font-size: 1em;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     font-weight: 300;
-    color: #ffffff;
+    color: #2F2F33;
     display: block;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
-    position: absolute;
-    top: 0;
+    position: relative;
+    top: 10%;
+    left: 5%;
     width: 100%;
 }
 
@@ -350,12 +349,13 @@ article{
     font-size:.8em;
     letter-spacing: 0.7px;
     font-weight: 400;
-    color: #ffffff;
-    text-align:center;
-    display:block;
+    color: #2F2F33;
+    text-align:left;
+/*    display:block;*/
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0;
+    left:5%;
 }
 
 @media only screen and (max-width: 991px) {
