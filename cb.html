@@ -18,10 +18,11 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Lato' rel='stylesheet' type='text/css'>   
     <link href='https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Slabo+27px' rel='stylesheet' type='text/css'>
-    <script src="js/parallax.min.js"></script>
+    
     <!-- Link to jQuery (1.8 or later), -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/parallax.min.js"></script>
 
     <!-- fotorama.css & fotorama.js. -->
     <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
@@ -61,15 +62,25 @@
             </div>
         </header>
         <div class="row proContainer">  
-            <section class="proShowcase" style="margin-top:80px; background-image:url('images/cb0.jpg'); background-size: cover; position:relative; overflow:hidden; background-position:center" id="KC1">
+            <section style="padding-top:140px; padding-bottom:100px" data-parallax="scroll" data-image-src="images/cb0.jpg">
+                <div class="proSectionPadding">
+                    <div class="row" >
+                        <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2" style="padding-left:0">
+                            <!-- <img class="img-me" src="assets/avatar.jpg"/> -->
+                            <h1 class="SCtitle">CrunchBase Viz</h1>
+                            <p class="SCsubtitle" style="margin-bottom:0">UX Research on startup fundraising</p>
+                            <p class="SCsubtitle">Data visualization of CrunchBase</p>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+            <!-- <section class="proShowcase" style="margin-top:80px; background-image:url('images/cb0.jpg'); background-size: cover; position:relative; overflow:hidden; background-position:center" id="KC1">
                 <div class="proSectionPadding col-xs-12 col-sm-12 col-md-8 col-md-offset-2" style="padding-top:140px; padding-bottom:100px">
                     <h1 class="SCtitle">CrunchBase Viz</h1> 
                     <p class="SCsubtitle" style="margin-bottom:0">UX Research on startup fundraising</p>
                     <p class="SCsubtitle">Data visualization of CrunchBase</p>
                 </div>
-                <!-- <img class="SCimg" src="images/cb0.jpg"></img> -->
-                <!--<div class="parallax-window" data-parallax="scroll" data-image-src="images/kc01.jpg"></div>-->
-            </section>  
+            </section>   -->
 
             <section id="KC2">
                 <div class="proSectionPadding col-xs-12 col-sm-12 col-md-8 col-md-offset-2" style="padding-top:100px">

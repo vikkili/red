@@ -22,6 +22,7 @@
     <!-- Link to jQuery (1.8 or later), -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/parallax.min.js"></script>
 
     <!-- fotorama.css & fotorama.js. -->
     <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
@@ -61,14 +62,25 @@
             </div>
         </header>
         <div class="row proContainer">  
-            <section class="proShowcase" style="margin-top:80px; background-image:url('images/pa0.jpg'); background-size: cover; position:relative; overflow:hidden; background-position:center" id="pa1">
+            <section style="padding-top:140px; padding-bottom:100px" data-parallax="scroll" data-image-src="images/pa0.jpg">
+                <div class="proSectionPadding">
+                    <div class="row" >
+                        <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2" style="padding-left:0">
+                            <!-- <img class="img-me" src="assets/avatar.jpg"/> -->
+                            <h1 class="SCtitle">PRIMAL ATHLETICS</h1>
+                            <p class="SCsubtitle">Website redesign for a crossfit gym.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+           <!--  <section class="proShowcase" style="margin-top:80px; background-image:url('images/pa0.jpg'); background-size: cover; position:relative; overflow:hidden; background-position:center" id="pa1">
                 <div class="proSectionPadding col-xs-12 col-sm-12 col-md-8 col-md-offset-2" style="padding-top:160px; padding-bottom:120px">
                     <h1 class="SCtitle">PRIMAL ATHLETICS</h1>
                     <p class="SCsubtitle">Website redesign for a crossfit gym.</p>
-                </div>
+                </div> -->
                 <<!-- img class="SCimg" src="images/pa00.jpg"></img> -->
                 <!--<div class="parallax-window" data-parallax="scroll" data-image-src="images/kc01.jpg"></div>-->
-            </section>  
+<!--             </section>   -->
 
             <section>
                 <div class="proSectionPadding col-xs-12 col-sm-12 col-md-8 col-md-offset-2" style="padding-top:100px">
