@@ -1,7 +1,7 @@
 body {
     color: #2F2F33;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+  /*  font-weight: 300;*/
     line-height: 24px;
     -webkit-font-smoothing: antialiased;
     -webkit-hyphens: auto;
@@ -381,7 +381,7 @@ article{
     display: table;
     width: 100%;
     margin: 0 auto;
-    background-color: #f6f6f6;
+    background-color: #f1f1f1;
     -webkit-backface-visibility: hidden;
     -webkit-transform: translate3D(0, 0, 0);
 }

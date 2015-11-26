@@ -85,8 +85,8 @@
             <section id="KC2">
                 <div class="proSectionPadding col-xs-12 col-sm-12 col-md-8 col-md-offset-2" style="padding-top:100px">
                     <h3>The Challenge</h3>
-                    <h2>How can we help family and friends keep in touch on a regular basis?</h2>
-                    <p>As international students, we clearly see our parents' pain point when they face the limitation of contacting us, due to our busy schedule or different time zone. We ourselves also feel obliged to contact them, however we often forget. So how can we make this two-way communication easier? After research, we found it a common pain point existing not only among international students and their parents, but also families who live in different cities.</p>
+                    <h2>How can we help families keep in touch on a regular basis?</h2>
+                    <p>This is a research group project, where we started out on how to leverage technology on family relationship. After informative interviews with 10 participants, we found it a common pain point to contact families on a regular basis, due to busy schedule or time difference, etc. On the one hand, parents want to know what's going on with their kids and don't know when is the best time to call. On the other hand, children feel obliged to call parents but often forget. So how can we make this two-way communication eaiser?</p>
                 </div>
             </section>
             <section id="persona">
@@ -128,8 +128,10 @@
                 <div class="proSectionPadding col-xs-12 col-sm-12 col-md-8 col-md-offset-2" style="padding-top:100px">
                     <h3>Ideation</h3>
                     <h2 style="padding-bottom:20px">Potential Features</h2>
+                    <img src="images/ft22.jpg" style="width:100%; padding-bottom:20px"></img>
+                    <p style="text-align:left">After brainstorming, we listed out the following potential features that could be built in our app. We voted on the first four features for our first prototype because we think goal setting is too burderning, and people already use other apps to call or message so that it's unnecessary to build in-app call/messaging.</p>
                     <div>
-                        <div class="row" style="padding-bottom: 40px">
+                        <div class="row" style="padding-bottom: 20px; padding-top:40px">
                             <div class="col-md-2 col-xs-12">
                                 <img src="images/ft3.png"></img>
                                 <span></span>
@@ -167,22 +169,67 @@
 
             <section id="ideation">
                 <div class="proSectionPadding col-xs-12 col-sm-12 col-md-8 col-md-offset-2" style="padding-top:100px">
-                    <h3>Testing & Iteration</h3>
-                    <h2 style="padding-bottom:20px">4 Rounds of Iteration</h2> 
-                    <div class="fotorama" data-width="100%" data-ratio="720/480" data-max-width="100%" style="padding-bottom:20px">
-                        <img src="images/ft21.jpg">
-                        <img src="images/ft11.jpg">
-                        <img src="images/ft9.jpg">
-                        <img src="images/ft10.jpg">
+                    <h3>Concept Testing & Iteration</h3>
+                    <h2 style="padding-bottom:20px">1st Round</h2> 
+                    <div class="row" style="padding-bottom:40px">
+                        <div class="col-md-6 col-xs-12" style="padding-left:0">
+                            <img src="images/ft21.jpg" style="width:100%"></img>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <p>Features:</p>
+                            <ul>
+                                <li>Track how long it's been since your last call.</li>
+                                <li>Automatically generating 5 recent photoes to share.</li>
+                                <li>Display contacts' availability on homepage</li>
+                            </ul>
+                            <p>Main Feedbacks:</p>
+                            <ul>
+                                <li>"Traking is useful. Can it be accurate? Do I need to adjust manually?"</li>
+                                <li>"I use Whatsapp to share photoes with my parents. Why would I use this?"</li>
+                            </ul>
+                        </div>
                     </div>
-                    <p style="padding-bottom:10px">We used paper prototype and sketches to run usability test and went through 4 quick rounds of iteration. Changes were made mainly based on user feedbacks. As we planned to built this app out with real code, feasibility is also taken into consideration.</p>
-                    <ul >
-                        <li><strong>Tracking:</strong> Tracking the calling history in other apps like Skype might not be feasible, so we track only iOS native phone call, Facetime and message.</li>
-                        <li><strong>Availability:</strong> Syncing from calendar doesn't accurately reflects availability.</li>
-                        <li><strong>Reminder:</strong> Users don't need availability notifications, so we only notify them about goals.</li>
-                        <li><strong>Photo Sharing:</strong> Users already use other tools to share photos, so we eliminated the feature.</li>
-                        <li><strong>Goal Setting:</strong> Provide option to notify them when they haven't complete their goals, add gamification badges.</li>
-                    </ul>
+                    <hr></hr>
+                    <h2 style="padding-bottom:20px; padding-top:40px">2nd Round</h2>
+                    <div class="row" style="padding-bottom:40px">
+                        <div class="col-md-6 col-xs-12" style="padding-left:0">
+                            <img src="images/ft11.jpg" style="width:100%"></img>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <p>Iteration:</p>
+                            <ul>
+                                <li>Eliminated photo sharing.</li>
+                                <li>Shifted focus to reminder/notification. Prompt you when you and your contacts are available - "Your mom is available now. Wanna call her?"</li>
+                                <li>Manually input availability or sync with calendar.</li>
+                            </ul>
+                            <p>Main Feedbacks:</p>
+                            <ul>
+                                <li>"I don't think either calendar or input can reflect my actural availability to talk to them. It's too flexible."</li>
+                                <li>"It's annoying if it sends me a notification everytime I'm free."</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr></hr>
+                    <h2 style="padding-bottom:20px; padding-top:40px">3rd Round</h2>
+                    <div class="row" style="padding-bottom:40px">
+                        <div class="col-md-6 col-xs-12" style="padding-left:0">
+                            <img src="images/ft10.jpg" style="width:100%"></img>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <p>Iteration:</p>
+                            <ul>
+                                <li>Surveyed on "free time" and availability with 49 participants. Frequent answers are "while driving", "on bus" or "at home after dinner".</li>
+                                <li>Allow users to show availability with the combination of time, location detect and mobility, e.g.: at home after 9pm.</li>
+                                <li>Allow user to set goals. Only send notification when it's too long since they call their contacts.</li>
+                            </ul>
+                            <p>Main Feedbacks:</p>
+                            <ul>
+                                <li>"I want to be able to see their time zone too."</li>
+                                <li>"The length of conversation is as important as frequency."</li>
+                                <li>"The reminder makes me feel guilty, but it's effective."</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </section>
 
